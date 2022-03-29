@@ -1,5 +1,7 @@
 # yolov5-DNN-inference
 
+For reference, please give me a star！ Please Please!
+
 对YOLOV5官网网站推荐的DNN(C++版)推理代码的学习心得，源代码地址为：https://github.com/doleron/yolov5-opencv-cpp-python
 
 OpenCV version >= 4.5
