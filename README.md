@@ -2,6 +2,8 @@
 
 对YOLOV5官网网站推荐的DNN(C++版)推理代码的学习心得，源代码地址为：https://github.com/doleron/yolov5-opencv-cpp-python
 
+OpenCV version >= 4.5
+
 ![Image text](https://github.com/zzbbzz626/images/blob/main/1648533010(1).jpg)
 
 YOLO检测头的大小可以通过上图计算过程计算
