@@ -2,16 +2,16 @@
 
 For reference, please give me a star！ Please Please!
 
-对YOLOV5官网网站推荐的DNN(C++版)推理代码的学习心得，源代码地址为：https://github.com/doleron/yolov5-opencv-cpp-python
+The learning experience of the DNN (C++ version) reasoning code recommended by the YOLOV5 official website website, the source code address is：https://github.com/doleron/yolov5-opencv-cpp-python
 
 OpenCV version >= 4.5
 
 ![Image text](https://github.com/zzbbzz626/images/blob/main/1648533010(1).jpg)
 
-YOLO检测头的大小可以通过上图计算过程计算。
+The size of the YOLO detection head can be calculated through the calculation process shown in the figure above.
 
 ![Image text](https://github.com/zzbbzz626/images/blob/main/1648533043(1).jpg)
 
-检测头预测厚度为[x,y,w,h,conf,cls] cls=class number。当采用单分类时cls=1,因此图中的厚度为6。
+The detection head of the inspection head is[x,y,w,h,conf,cls] cls=class number。When single classification is used, cls=1, so the thickness in the figure is 6
 
-在更改推理模型为自己训练的不同版本的YOLOV5推理出的onnx文件时，只需要更改程序的78、79行中的dimensions=自己训练模型的厚度，row=3x((img/8)^2+(img/16)^2+(img/32)^2)即可。
+When changing the onnx file inferred by the inference model for different versions of YOLOV5 trained by yourself, you only need to change the dimensions in lines 78 and 79 of the program = the thickness of your own training model，row=3x((img/8)^2+(img/16)^2+(img/32)^2)。
